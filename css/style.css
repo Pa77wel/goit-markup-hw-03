@@ -1,0 +1,376 @@
+:root{
+    --navcolor: #ffffff;
+    --maincolor: #212121;
+    --blue:#2196f3;
+    --black: #000000;
+    --grey:#F5F4FA;
+    --lightgrey: #e5e5e5;  
+    --background: #2f303a;
+    --textcolor: #757575;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--navcolor);
+    color: var(--maincolor);
+}
+
+
+.logo {font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--black);
+text-decoration: none;
+letter-spacing: 0.03em;
+}
+
+.logoblue {
+color: var(--blue);
+}
+
+.agencja,
+.portfolio,
+.kontakt {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+color: var(--maincolor);
+letter-spacing: 0.02em;
+}
+
+.mailtel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
+color: var(--textcolor);
+letter-spacing: 0.02em;
+}
+
+a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+.money,
+.fmenu {
+background-color: var(--background);
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--navcolor);
+letter-spacing: 0.06em;
+
+}
+
+.mainbutton {
+    font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+color: var(--navcolor);
+background-color: var(--blue);
+letter-spacing: 0.06em;
+}
+
+.hiddentitle {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+.stitle {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
+.text {
+font-size: 14px;
+line-height: 1.71;
+color: var(--textcolor);
+letter-spacing: 0.03em;
+}
+
+.about {
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+
+.lorus,
+.pics {
+    background-color: var(--lightgrey);
+}
+
+.staff {
+    background-color: var(--grey);
+}
+
+.team {
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.02em;
+}
+
+.person {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.prof {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--textcolor);
+    letter-spacing: 0.02em;
+}
+
+.place {
+font-size: 14px;
+line-height: 1.71;
+color: var(--navcolor);
+letter-spacing: 0.03em;
+}
+
+.together {
+    background-color: var(--lightgrey);
+}
+
+.button {
+    font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+background-color: var(--grey);
+letter-spacing: 0.03em;
+}
+
+.button:hover {
+    color: var(--navcolor);
+    background-color: var(--blue);
+}
+
+.list {
+background-color: var(--navcolor);
+}
+
+.name {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.item {
+font-size: 16px;
+line-height: 1.87;
+color: var(--textcolor);
+letter-spacing: 0.03em;
+}
+
+.logowhite {
+    color: var(--navcolor)
+}
+
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    margin: 0 15px;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 93px;
+    margin-right: 371px;
+}
+
+.navi {
+    padding-left: 46px;
+}
+
+.container-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tool2 {
+    margin-left: 50px;
+    width: 110px;
+}
+
+
+.hmenu {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.money {
+    padding-top: 200px;
+    padding-bottom: 200px;
+text-align: center;
+display: block;
+}
+
+.title {
+    text-align: center;
+    padding: 0 252px;
+}
+
+.mainbutton {
+    margin-top: 30px;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 41px 10px 42px;
+}
+
+.loremlist {
+    padding: 0 15px;
+    display: flex;
+}
+
+.pics {
+    display: block;
+}
+
+.about {
+    text-align: center;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 15px 94px 15px;
+}
+
+.staff {
+    display: block;
+}
+
+.team {
+    text-align: center;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px 94px 30px;
+}
+
+.person,
+.prof {
+    text-align: center;
+}
+
+.person {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.all {
+    background-color: #ffffff;
+}
+
+.prof {
+    padding-bottom: 30px;
+}
+
+.fmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.place {
+    padding-top: 20px;
+}
+
+.mailtel {
+    padding-top: 9px;
+}
+
+.foottel {
+    padding-bottom: 60px;
+}
+.buttons {
+padding-top: 0;
+    align-items: center;
+}
+.portbuttons {
+    display: flex;
+    justify-content: center;
+    padding-left: 310px;
+    padding-right: 318px;
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    margin: 0 8px 50px;
+}
+
+.portfoliolist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list {
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+    width: 370px;
+    height: 404px;
+}
+
+.together {
+    padding-top: 94px;
+}
+
+.name {
+    margin: 20px 24px 4px 24px;
+}
+
+.item {
+    margin: 4px 24px 20px 24px;
+}
